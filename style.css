@@ -2,18 +2,18 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-  }
+}
 
 header {
     background-color: #0F4C81;
     color: #FFF;
     padding: 20px;
     text-align: center;
-  }
+}
   
 h1 {
     margin: 0;
-  }
+}
   
 nav {
     background-color: #333;
@@ -66,3 +66,78 @@ footer {
     padding: 10px;
     text-align: center;
   }
+
+.logo-gremio{
+    width: 320px;
+    margin: 0 25px 25px 0;
+    float: left;
+    height: 350px;
+    width: 19%;
+    background-color: #f1f1f1;
+    padding: 30px;
+    border-radius: 10px;
+    position: relative;
+    left: 0;
+}
+
+.card {
+    max-width: 450px;
+    background-color: #003366;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+  
+.card-header {
+    background-color: #004080;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+}
+  
+.card-header h2 {
+    margin: 0;
+    font-size: 24px;
+}
+  
+.card-body {
+    margin-top: 20px;
+}
+  
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+  
+form input, form textarea {
+    width: 100%;
+    padding: 2px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+  
+form button {
+    background-color: #0080ff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+form button:hover {
+    background-color: #0059b3;
+    transition: 0.5s;
+}
+  
+.texto-completo {
+    background-color: #e7e0e0;
+    padding: 12px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    width: 90%;
+    height: 90%;
+}
